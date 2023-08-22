@@ -1,10 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "yvN0klEbZ22VUoitB3k2eCtf4vwEFfzyJXhk0I/v+LMjmad5kdxojzPl9ZVmodcOGjkxbJFK5gbBKJ6MpEei+g==",
+  "dgSpecHash": "HlYdLTBQDKCIZByfOcKnp6B50ikm3rA8/ngzhufxXl7NnI1+g1To/9LvKujDbm2OsrQUhNFkDY25G6vwhbRscQ==",
   "success": true,
-  "projectFilePath": "D:\\WinLancers\\AngularCrudUsingDotNetCore\\DotNetWebApi\\DotNetWebApi\\DotNetWebApi.csproj",
+  "projectFilePath": "D:\\WinLancers\\AngularDotNetCoreFullStack\\AngularCrudUsingDotNetCore\\DotNetWebApi\\DotNetWebApi\\DotNetWebApi.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\HP\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
+    "C:\\Users\\HP\\.nuget\\packages\\microsoft.aspnetcore.authentication.jwtbearer\\5.0.0\\microsoft.aspnetcore.authentication.jwtbearer.5.0.0.nupkg.sha512",
     "C:\\Users\\HP\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",
     "C:\\Users\\HP\\.nuget\\packages\\microsoft.data.sqlclient\\2.1.4\\microsoft.data.sqlclient.2.1.4.nupkg.sha512",
     "C:\\Users\\HP\\.nuget\\packages\\microsoft.data.sqlclient.sni.runtime\\2.1.1\\microsoft.data.sqlclient.sni.runtime.2.1.1.nupkg.sha512",

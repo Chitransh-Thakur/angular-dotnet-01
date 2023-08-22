@@ -1,4 +1,5 @@
 ﻿using DotNetWebApi.Models;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 
@@ -73,6 +74,25 @@ namespace DotNetWebApi.Controllers
             _context.Employees.Remove(employee);
             _context.SaveChanges();
             return Ok();
+        }
+
+        [HttpPost("login")]
+        public IActionResult Authenticate(User userObj)
+        { 
+            if(userObj == null) 
+            {
+                return BadRequest();
+            }
+            var user = _context.Users.FirstOrDefault(x => x.Email == userObj.Email && x.Password == userObj.Password);
+            if(user == null) 
+            {
+                return BadRequest(new { Message = "User Not Found" });
+            }
+            var token = JWTHelper.CreateJWT();
+            return Ok(new { 
+              Token = token,
+              Message = "Success"
+            });
         }
     }
 }
